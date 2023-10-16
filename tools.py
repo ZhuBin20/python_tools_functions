@@ -13,3 +13,7 @@ def show_cuda_imformation():#显示cuda的一些信息
     print("CUDA是否可用: {}".format(torch.cuda.is_available()))  # 查看CUDA是否可用
     print("可用的CUDA数量: {}".format(torch.cuda.device_count()))  # 查看可用的CUDA数量
     print("CUDA的版本号: {}".format(torch.version.cuda))  # 查看CUDA的版本号
+
+
+if __name__ == '__main__':
+    show_cuda_imformation()
